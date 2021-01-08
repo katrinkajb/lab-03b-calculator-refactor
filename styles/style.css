@@ -1,10 +1,10 @@
 
 body {
-    --color1: rgb(241, 209, 112);
-    --color2: hsla(135, 65%, 98%, 1);
-    --color3: hsla(315, 37%, 86%, 1);
-    --color4: hsla(45, 73%, 98%, 1);
-    --color5: hsla(224, 40%, 79%, 1);
+    --color1: rgb(242, 233, 228);
+    --color2: rgb(74, 78, 105);
+    --color3: rgb(74, 78, 105);
+    --color4: rgb(154, 140, 152);
+    --color5: rgb(201, 173, 167);
     
     --header-height: 80px;
     --shadow: 0px 10px 20px -12px rgba(0,0,0,0.45);
@@ -50,6 +50,7 @@ header {
     box-shadow: var(--shadow);
     font-size: x-large;
     font-weight: 800;
+    color: white;
 }
 
 .box {
