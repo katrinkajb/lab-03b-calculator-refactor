@@ -49,6 +49,6 @@ export function divideClick() {
     const divideValue1 = divideInput1.valueAsNumber;
     const divideValue2 = divideInput2.valueAsNumber;
 
-    const divi = getDivide(divideValue1, divideValue2);
-    divideResults.textContent = "The total is " + divi;
+    const div = getDivide(divideValue1, divideValue2);
+    divideResults.textContent = "The total is " + div;
 }

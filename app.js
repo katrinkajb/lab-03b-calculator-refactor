@@ -1,4 +1,4 @@
-import {addClick, subtractClick, multiplyClick, divideClick} from './handlers.js'
+import { addClick, subtractClick, multiplyClick, divideClick } from './handlers.js'
 
 const addButton = document.getElementById('add-button');
 addButton.addEventListener('click', addClick);
